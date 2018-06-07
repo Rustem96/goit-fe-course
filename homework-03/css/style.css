@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: center;
+    word-spacing: 86px;
+    text-transform: uppercase;
+    margin: 55px 22px 6px 77px;
+}
+.sub-title {
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 20pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p {
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+    text-align: left;
+}
+.article1 { 
+    left: 2px;
+    top: 265px;
+    width: 423px;
+    height: 283;
+    display: inline-block;
+    margin: 50px;
+}
+.article2{
+    left: 15px;
+    top: 15px;
+    width: 422px;
+    height: 283;
+    display: inline-block;
+    margin: 50px;
+} 
+.article3 {
+    left: 2px;
+    top: 265px;
+    width: 423px;
+    height: 283;
+    display: inline-block;
+    margin: 50px;
+
+}
+.article4{
+    left: 15px;
+    top: 15px;
+    width: 422px;
+    height: 283;
+    display: inline-block;
+    margin: 50px;
+
+} 
+.article5 {
+    left: 2px;
+    top: 265px;
+    width: 423px;
+    height: 283;
+    display: inline-block;
+    margin: 50px;
+
+}
+.article6{
+    left: 15px;
+    top: 15px;
+    width: 422px;
+    height: 283;
+    display: inline-block;
+    margin: 50px;
+
+} 
+.text1 {
+    font-family: ﻿Ubuntu-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(180, 173, 158, 255);
+    text-align: left;
+    text-transform: uppercase;
+}
+.box {
+    border: 1px double grey; 
+    font-family: ﻿PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 20pt;
+    color: grey;
+    text-align: center;
+    width: 164px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #cbc1c1;
+}
+A {
+    color: #707070; /* Цвет ссылок */
+    text-decoration: none;
+   }
+.container{
+    width: 1049px;
+    margin: auto;
+}
+article{
+}
