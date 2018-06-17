@@ -48,7 +48,7 @@ li{
   clear: both;
 }
 .container {
-  background-image: url(/img/slide4.png);
+  background-image: url(img/slide4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
