@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.page{
+  padding: 50px 140px 50px 140px;
+  margin: 0 auto;
+  width: 1600px;
+}
+.logo{
+  outline: none;
+  float: left;
+  font-family: Roboto;
+  font-size: 30px;
+  color: #555252;
+  text-align: left;
+  text-decoration: none;
+  }
+.logo::first-letter {
+  font-family: Roboto;
+  color: #1abc9c;
+  font-size: 50px;
+  }
+a{
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #515151;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menu{
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  margin: 10px;
+}
+.menu li{
+  float: left;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container {
+  background-image: url(../img/slide4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  width: 1600px;
+  height: 602px;
+  padding: 188px 197px;
+}
+h1{
+  text-align: center;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 60px;
+  color: #ffffff;
+}
+small{
+  display: block;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  color: #ffffff;
+}
+.article{
+  margin: 0 auto;
+  position: relative;
+}
+.text{
+  margin: 0 auto; 
+}
+.green{
+  width: 104px;
+  height: 104px;
+  background-color:#1abc9c ;
+  opacity: 0.6;
+  text-align: center;
+  font-size: 71px;
+  color: #ffffff;
+}
+.box1{
+  display: inline-block;
+  position: absolute;
+  left: 90px;
+}
+.box2{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 90px;
+}
+h2 {
+  font-family: Roboto;
+  font-size: 48px;
+  color: rgba(81, 81, 81, 255);
+  text-align: center;
+}
+h2::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  height: 7px;
+  width: 166px;
+  background-position: center;
+  background: #1abc9c;
+  margin-top: 45px;
+  margin-bottom: 86px;
+}
+.collection{
+  padding: 101px 185px 440px 185px;
+  margin: 0 auto;
+  width: 1600px;
+  background-color: #e9f0fd;
+}
+.name{
+  display: block;
+  margin: auto;
+  bottom: 0px;
+  float: left;
+  width: 201px;
+  height: 40px;
+  background: #323232;
+  font-family: Roboto;
+  font-size: 16pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+  text-transform: uppercase;
+  padding: 9px;
+}
+.price {
+  display: block;
+  float: right;
+  background: #8c8c8c;
+  width: 56px;
+  height: 40px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 9px;
+}
+.cart{
+  float: left;
+  display: block;
+  width: 257px;
+  text-align: center;
+  position: relative;
+}
+.cart:nth-child(-n+4){
+  margin-right: 50px;
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+.visualyy-hidden{
+  font-size: 38px;
+  color: #ffffff;
+}
+.icon{
+  position: absolute;
+  width: 233px;
+  height: 300px;
+  margin: 12px;
+}
+.cardlike{
+  position: absolute;
+  left: 33px;
+  bottom: 53%;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.cardarrows{
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  right: 33px;
+  bottom: 53%;
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.cardalarm{
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  margin: 0;
+  left: 91px;
+  bottom: 53%;
+  opacity: 0;
+  padding: 0;
+  width: 52px;
+  height: 52px;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.cardbasket{
+  width: 168px;
+  height: 52px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  background-color: transparent;
+  border-color: #ffffff;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 255);
+}
+.add{
+  vertical-align: middle;
+  margin-bottom: 19px;
+  display: inline-block;
+}
+.all{
+margin: 0 auto;
+padding: 38px 535px 33px 535px;
+background-color: #323232;
+width: 1600px;
+font-family: Roboto;
+font-size: 21px;
+color: rgba(254, 254, 254, 255);
+text-align: center;
+}
+
+.cart:hover .cardlike {
+  opacity: 1;
+  transition: 1s;
+}
+.cart:hover .cardarrows{
+  opacity: 1; 
+  transition: 1s;
+}
+.cart:hover .cardalarm{
+  opacity: 1; 
+  transition: 1s;
+}
+.cart:hover .cardbasket{
+  opacity: 1; 
+  transition: 1s;
+}
+.cart:hover .name{
+  background-color: #1abc9c;
+}
+.cart:hover .price{
+  background-color: #1abc9c;
+}
+.cart:hover .icon{
+  background-color: #555252;
+  opacity: 0.7;
+}
+.cardalarm:hover{
+  background-color: #1abc9c;
+}
+.cardlike:hover{
+  background-color: #1abc9c;
+}
+.cardarrows:hover{
+  background-color: #1abc9c;
+}
+.cardbasket:hover{
+  background-color: black;
+}
