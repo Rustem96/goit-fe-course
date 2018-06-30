@@ -1,0 +1,245 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.page{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    }
+
+.menu a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: #95e1d3;
+    margin-right: 30px;
+    padding: 12px 0px;
+}
+.menu a:hover{
+    color: rgb(243, 129, 129);
+    border-bottom: 3px solid rgb(243, 129, 129);
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: #95e1d3;
+   
+}
+.work{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 0 50px;
+    flex-wrap:	wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.tex{
+    width: 269px;
+}
+.icon{
+    width: 32px;
+}
+.box{
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+}
+.caption{
+    margin: 0 auto;
+    padding: 50px 80px;
+}
+h2{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: rgba(51, 51, 51, 255);
+}
+h3{
+    text-align: center;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgba(51, 51, 51, 255);
+}
+h3::after {
+    display: block;
+    content: " ";
+    width: 60px;
+    border-bottom: 3px solid rgb(243, 129, 129);
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+h4{
+    padding-bottom: 15px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 255);
+    text-align: left;
+}
+p{
+    padding-bottom: 50px;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
+    text-align: left;
+}
+h5{
+    padding-bottom: 50px;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    width: 980px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+}
+.cart{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.foto{
+    position: relative;
+}
+.foto:hover .dix {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px #95e1d3;    
+}
+.foto:hover .camp {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px #95e1d3;    
+}
+.foto:hover .fertig {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px #95e1d3;    
+}
+.foto:hover .social-icons{
+    opacity: 1;
+    transform: translate(-201px, -266px)
+}
+.social-icon{
+    margin-right: 3px;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    
+}
+
+.social-icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(239,139,138,0.9), rgba(237,213,135,0.9));
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 383px;
+    height: 473px;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+}   
+
+.instagram{
+    background-image: url(../icon/instagram@1X.png);
+}
+.pinterest{
+    background-image: url(../icon/pinterest@1X.png);
+}
+.twitter{
+    background-image: url(../icon/twitter@1X.png);
+}
+
+.facebook{
+    background-image: url(../icon/facebook@1X.png);
+}
+
+.instagram:hover{
+    background-color: #95e1d3;
+}
+
+.pinterest:hover{
+    background-color: #95e1d3;
+}
+
+.twitter:hover{
+    background-color: #95e1d3;
+}
+
+.facebook:hover{
+    background-color: #95e1d3;
+}
+
+h6{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: rgba(51, 51, 51);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+small{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgba(153, 153, 153, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    margin: 0 auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+input[type="submit"] {
+    font-family: "Montserrat-Bold";
+    height: 40px;
+    width: 150px;
+    background-color: #95e1d3;
+    border: none;
+    color: #fff;
+    margin-left: -4px;
+    font-size: 15px;
+}
+
+input[type="email"] {
+    font-size: 15px;
+    font-family: "Roboto-LightItalic";
+    width: 230px;
+    height: 34px;
+}
+.aaqiq{
+    text-decoration: none;
+    color: #f9c6c6;
+}
+
+.text{
+    margin: 20px;
+}
+
